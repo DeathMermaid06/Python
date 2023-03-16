@@ -1,3 +1,4 @@
+
 registro={}
 
 def registrar_usuario():
@@ -28,8 +29,8 @@ def login_usuario():
     print("El usuario no existe")
 
 def guardar_registro():
-  o_usuarios =open("/usuarios_last.txt", "w")
+  o_usuarios =open("usuarios_last.txt", "a")
   for r in registro:
     o_usuarios.write(f"Usuario:{r} Contraseña:{registro[r]}")
+  print("se han guardado los usuarios en el sistema")
   o_usuarios.close()
-

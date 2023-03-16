@@ -5,3 +5,4 @@ Paquete_Pistasoli_Entrega2.egg-info/dependency_links.txt
 Paquete_Pistasoli_Entrega2.egg-info/top_level.txt
 paquete/__init__.py
 paquete/class_cliente.py
+paquete/login.py
